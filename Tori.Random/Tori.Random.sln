@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tori.Random", "Tori.Random\Tori.Random.csproj", "{D1B6138F-5C5A-46D8-8546-4F34B3CD2C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tori.Random.UnitTests", "Tori.Random.UnitTests\Tori.Random.UnitTests.csproj", "{07B9DF69-9F4E-4D69-BFB5-ECDE065C5D42}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1B6138F-5C5A-46D8-8546-4F34B3CD2C05} = {D1B6138F-5C5A-46D8-8546-4F34B3CD2C05}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://81.169.128.138:8080/tfs/fabians%20projekte
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Tori.Random.UnitTests\\Tori.Random.UnitTests.csproj
+		SccProjectName1 = Tori.Random.UnitTests
+		SccLocalPath1 = Tori.Random.UnitTests
+		SccProjectUniqueName2 = Tori.Random\\Tori.Random.csproj
+		SccProjectName2 = Tori.Random
+		SccLocalPath2 = Tori.Random
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1B6138F-5C5A-46D8-8546-4F34B3CD2C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B6138F-5C5A-46D8-8546-4F34B3CD2C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B6138F-5C5A-46D8-8546-4F34B3CD2C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B6138F-5C5A-46D8-8546-4F34B3CD2C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B9DF69-9F4E-4D69-BFB5-ECDE065C5D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B9DF69-9F4E-4D69-BFB5-ECDE065C5D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B9DF69-9F4E-4D69-BFB5-ECDE065C5D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B9DF69-9F4E-4D69-BFB5-ECDE065C5D42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
